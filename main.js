@@ -81,15 +81,48 @@ addition(2,5)
 
 // Write a JavaScript program that runs only when 2 things are true.
 // &&
+const twoTrue = () => {
+  const trueOne = 'go'
+  const trueTwo = 'go'
+  if (trueOne && trueTwo == 'go') {
+    console.log(`Its a go`)
+  }
+  else {
+    console.log(`Its a no go :(`)
+  }
+}
 
+twoTrue()
 
 // Write a JavaScript program that runs when 1 of 2 things are true.
 // ||
 
+const oneTrue = () => {
+  const trueOne = "up"
+  const trueTwo = "down"
+  if (trueOne || trueTwo == "up") {
+    console.log("This is the way")
+  }
+  else {
+    console.log("This is not the way")
+  }
+}
+
+oneTrue()
 
 // Write a JavaScript program that runs when both things are not true.
 // !  (!!)
 
+const noTrue = () => {
+  if ('cat' != 'dog' && 'bird' != 'fish') {
+    console.log("I think it's working")
+  }
+  else {
+    console.log("Pretty sure it's not working")
+  }
+}
+
+noTrue()
 // ***************************
 //         PART TWO
 // ***************************
